@@ -1,0 +1,22 @@
+[package]
+name = "lib-0"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["dylib"]
+
+[dependencies]
+rand = "*"
+ring = "*"
+chrono = "*"
+bincode = "*"
+serde_json = "*"
+crossbeam = "*"
+argon2 = "*"
+tfhe = "*"
+qrcode = "*"
+cxx = "*"
+
+[build-dependencies]
+cxx-build = "*"
